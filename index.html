@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Posts</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <section>
+        <div class="topoTabela">
+            <h2>Cadastrar Novo Post</h2>
+            <a href="listagemPostsAdmin.html">Conferir Posts</a>
+        </div>
+        <form id="formPost" autocomplete="off">
+            <div>
+                <label for="title">Título:</label>
+                <input type="text" id="title" placeholder="Insira o título do post">
+                <span id="errorTitle"></span>
+            </div>
+
+            <div>
+                <label for="description">Descrição:</label>
+                <textarea id="description" placeholder="Insira uma descrição para o post"></textarea>
+                <span id="errorDescription"></span>
+            </div>
+
+            <div>
+                <label for="category">Categoria:</label>
+                <select id="category">
+                    <option value="select">Selecione uma opção</option>
+                    <option value="dog">Cães</option>
+                    <option value="cat">Gatos</option>
+                    <option value="bird">Pássaros</option>
+                    <option value="reptile">Répteis</option>
+                    <option value="other">Outros</option>
+                </select>
+                <span id="errorCategory"></span>
+            </div>
+
+            <div>
+                <label for="file">Escolha um arquivo:</label>
+                <input type="file" id="file">
+                <span id="errorFile"></span>
+            </div>
+
+            <button type="submit">Publicar</button>
+        </form>
+    </section>
+    <script src="scripts/novoPost.js"></script>
+</body>
+
+</html>

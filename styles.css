@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Chau+Philomene+One:ital@0;1&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Work Sans, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #dbcfb059;
+}
+
+h1 {
+    text-align: center;
+}
+
+span {
+    color: #717598;
+    font-weight: bold;
+}
+
+.delete {
+    color: #545775;
+    font-weight: bold;
+}
+
+.delete:hover {
+    cursor: pointer;
+}
+
+section {
+    max-width: 1000px;
+    margin: 2% auto;
+    display: flex;
+    flex-flow: column;
+    box-shadow: 0px 0px 10px 2px #54577550;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.topoTabela {
+    background-color: #90B494;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    border-radius: 5px 5px 0 0 ;
+}
+
+h2 {
+    color: #fff;
+    font-size: 30px;
+}
+
+a {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    background-color: #4b6d74;
+    padding: 7px;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+a div {
+    font-weight: bold;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%; 
+    background-color: white;
+    color: #4b6d74;
+    font-size: 15px;
+}
+
+table {
+    border-collapse: collapse;
+    background-color: #fff;
+}
+
+tr * {
+    padding: 20px 12px;
+    border-bottom: 2px solid #718f946e;
+    text-align: center;
+    color: #718F94;
+}
+
+th {
+    color: #718F94;
+}
+
+form {
+    display: flex;
+    flex-flow: column;
+    gap: 15px;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+}
+
+form div {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+
+input, textarea, select {
+    background-color: #dbcfb059;
+    padding: 15px;
+    border: 1px solid #dbcfb059;
+    border-radius: 5px;
+}
+
+label {
+    color: #718F94;
+    font-weight: bold;
+}
+
+button {
+    padding: 15px;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #639269;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+button:hover {
+    cursor: pointer;
+}
